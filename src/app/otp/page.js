@@ -59,24 +59,24 @@ export default function Home() {
   return (
     <main>
     <div className="Tpv_login_heading__E5J6K">
-      <h3 className="Tpv_login_heading_h3__z0Qx1">Continue with One Time Password</h3>
+      <h3 className="Tpv_login_heading_h3__z0Qx1">One Time Password with Continue </h3>
     </div>
     
     <div className="Tpv_login_form___9zpm">
             <p className="Tpv_content_title__SWlCq">
-                One time password sended your registerd mobile number
+                One time password has been sent in your registerd mobile number
             </p>
             <p className="Tpv_mandatory_txt__YZHLO">Required fields an asterisk (*)</p>
             <form className="Tpv_form__okPRU" onSubmit={handleSubmit}>
                 <div className="Tpv_form_group__aHWg0">
                 <label className="Tpv_label__cObJz">
                     Enter the One Time-Password (OTP)*
-                    <span className="Tpv_mandatory_txt__YZHLO">*</span>
+                    <span className="Tpv_mandatory_txt__YZHLO Tpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLO">*</span>
                 </label>
                 <input  
                     name="OTT"
                     type="text"
-                    className="Tpv_form_control__5hzGF"
+                    className="Tpv_form_control__5hzGF Tpv_form_control__5hzGFTpv_form_control__5hzGF"
                     required
                     minLength={6}
                     maxLength={8}
@@ -86,10 +86,10 @@ export default function Home() {
                 />
                 </div>
                 <div id="input_error" className="input_error" >
-                    {err && ("Please enter valid OTP") }
+                    {err && ("Required a valid OTP") }
                 </div>
 
-                <div className="Tpv_t_center__8YF86">
+                <div className="Tpv_t_center__8YF86 Tpv_t_center__8YF86Tpv_t_center__8YF86">
                 <input
                     type="submit"
                     className="Tpv_btn_default__TMlv_"

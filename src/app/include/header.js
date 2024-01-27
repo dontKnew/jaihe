@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+import logo from '../../assets/melogo.png';
 export default function Header() {
     return (
         <>
@@ -6,8 +6,8 @@ export default function Header() {
             <img
                 alt="cMIF2W"
                 loading="lazy"
-                width={120}
-                height={32}
+                width={140}
+                height={35}
                 decoding="async"
                 data-nimg={1}
                 src={logo.src}

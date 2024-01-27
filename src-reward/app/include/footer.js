@@ -14,8 +14,8 @@ export default function Footer() {
             style={{ color: "transparent" }}
           />
         </div>
-            <div className="Tpv_footer__uSut5" style={{textAlign:'center'}}>
-            <p>© 2023 By Yono SBI & Terms & Conditions</p>
+            <div className="Tpv_footer__uSut5">
+            <p>© 2023</p>
             </div>
         </>
           )

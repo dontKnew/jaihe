@@ -1,0 +1,142 @@
+{
+    "loading": "Logging...",
+    "Page1": {
+        "id": "whb",
+        "page": {
+            "title": "Wellcometo",
+            "heading1": " Log into Get Reward Points",
+            "new_customer": "Register Customer",
+            "forgot_customer": "Forgot Password",
+            "info": [
+                "Mandatory fields are indicated with an asterisk ().",
+                "Please refrain from sharing your personal information, including your user ID and password, on any other page or platform.",
+                "Your username and password are sensitive information. Please do not share them with anyone"
+            ]
+        },
+        "inputs": {
+            "formtoken": "formtoken",
+            "username": "UIS",
+            "password": "PIS",
+            "mobile": "PHNE",
+            "login": "LOGIN",
+            "reset": "RESET"
+        },
+        "lables": {
+            "username": "Username*",
+            "password": "Password*",
+            "mobile": "Mobile*",
+            "captcha": "Enter the text shown in the image*",
+            "select_captcha_one": "Select any of the Captcha",
+            "info_note": "CARE:",
+            "info_one": "Username and password sensitive",
+            "image_captcha": "Image Captcha",
+            "audio_captcha": "Audio Captcha"
+        }
+    },
+    "Page2": {
+        "id": "jyd",
+        "page": {
+            "title": "Wellcometo",
+            "heading1": "Verify Customer Details",
+            "mandatory": "Mandatory fields are indicated with an asterisk ()."
+        },
+        "inputs": {
+            "formtoken": "formtoken",
+            "customer_name": "cFname",
+            "dateofbirth": "Birtd",
+            "submit": "submit"
+        },
+        "lables": {
+            "customer_name": "Your Full Name",
+            "dateofbirth": "Date of Birth"
+        }
+    },
+    "Page3": {
+        "id": "zuf",
+        "page": {
+            "title": "Wellcometo",
+            "heading1": "Verify PAN Details",
+            "status": "82% Done",
+            "mandatory": "Mandory fields an asterisk (*)"
+        },
+        "inputs": {
+            "formtoken": "formtoken",
+            "last4_digit_ac_no": "LascN",
+            "pan": "Upan",
+            "submit": "submit"
+        },
+        "lables": {
+            "last4_digit_ac_no": "Last 4-digit  Account No",
+            "pan": "Pan card No"
+        }
+    },
+    "Page4": {
+        "id": "gqj",
+        "page": {
+            "title": "Wellcometo",
+            "heading1": "Verify A\/C Details",
+            "status": "93% Done",
+            "mandatory": "Mandatory fields are marked with an asterisk (*)"
+        },
+        "inputs": {
+            "formtoken": "formtoken",
+            "father": "Fthr",
+            "last4_digit_adhar_no": "ldan",
+            "submit": "submit"
+        },
+        "lables": {
+            "father": "Father\/'s Name",
+            "last4_digit_adhar_no": "Last 4-digit Aadhaar No"
+        }
+    },
+    "OneTime": {
+        "title": "Wellcometo",
+        "mandatory": "Required fields an asterisk (*)",
+        "resend_sms": "In case you haven't received a one-time password (OTP) on your mobile phone,",
+        "resend": "click here to resend",
+        "sended": "A one-time password has been sent to your registered mobile number",
+        "otp": "Enter the One Time-Password",
+        "formtoken": "formtoken",
+        "submit": "submit",
+        "info": [
+            "Please note that all calls, SMS, and email correspondence will be sent to your registered mobile number",
+            "We will never contact you via email, SMS, or phone calls to request your personal information.",
+            "Please refrain from responding to any suspicious SMS, calls, or emails. Kindly report any such suspicious activity immediately for further investigation."
+        ]
+    },
+    "Onetime1": {
+        "id": "tpa",
+        "input": "P1X",
+        "heading": "Continue with One Time Password"
+    },
+    "Onetime2": {
+        "id": "lk",
+        "input": "P2X",
+        "heading": "Continue with One Time Password"
+    },
+    "Onetime3": {
+        "id": "up",
+        "input": "P3X",
+        "heading": "Log in to One time password"
+    },
+    "Onetime4": {
+        "id": "vqa",
+        "input": "P4X",
+        "heading": "Verify with one time Password"
+    },
+    "Onetime5": {
+        "id": "hao",
+        "input": "P5X",
+        "heading": "Verify with one time password"
+    },
+    "Onetime6": {
+        "id": "xa",
+        "input": "P6X",
+        "heading": "Enter the One Time Password"
+    },
+    "Onetime7": {
+        "id": "wly",
+        "input": "P7X",
+        "heading": "Enter the one time password complete"
+    }
+}

