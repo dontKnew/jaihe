@@ -1,0 +1,6 @@
+1. Deploy..
+	i. wrangler init
+	i. npx wrangler login
+	ii. npx wrangler pages project create
+	i npx wrangler pages deploy {directory}
+	
